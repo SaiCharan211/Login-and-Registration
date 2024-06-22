@@ -21,6 +21,7 @@ function Login() {
               navigate('/Home', { replace: true });
               
             }else{
+              setError("Password Incorrect")
               console.log("wrong details")
               
             }
